@@ -1,0 +1,107 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Workout App</title>	
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link CSS Files -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->        
+  </head>
+
+  <body>
+
+  <div id="container" class="container">
+      <!-- HEADER -->
+      <div id="header" class="header">
+        <h1> TeamWorkout </h1>
+      </div> <!-- END OF HEADER -->
+
+      <!-- CONTENT -->
+      <div id="content" class="content">
+        <!-- COACH NAVIGATION -->
+        <div id="profileNav" class="">
+          <ul class="navbar nav-tabs">
+            <!-- Coach 1 -->
+            <li>
+              <a href="#" id="coach1" class="profileLink btn">
+                <img src="img/personal_profile_pic.png" alt="Coach 1">
+                <h6>Coach1</h6>
+              </a>
+            </li>
+            <!-- Coach 2 -->
+            <li>
+              <a href="#" id="coach2" class="profileLink btn">
+                <img src="img/personal_profile_pic.png" alt="Coach 2">
+                <h6>Coach2</h6>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- END OF PROFILE NAVIGATION -->
+
+        <!-- PERSONAL DISPLAY -->
+        <div id="messages" class="display">
+          <div class="panel panel-default">
+            <div class="panel-heading"> 
+              Messages
+            </div>
+            <table class="table">
+              <tr class="btn">
+                <td id="messager"> Coach Neil </td>
+                <td id="message"> Great Work Today </td>
+              </tr>
+              <tr class="btn">
+                <td id="messager"> Coach Thomas </td>
+                <td id="message"> Great Game! </td>
+              </tr>
+              <tr class="btn">
+                <td id="messager"> Coach Johnson </td>
+                <td id="message"> Practice Tonight </td>
+              </tr>
+              <tr class="btn">
+                <td id="messager"> Coach Thomas </td>
+                <td id="message"> New Workout Posted </td>
+              </tr>
+              <tr class="btn">
+                <td id="messager"> Coach Neil </td>
+                <td id="message"> Great Work Today </td>
+              </tr>
+            </table>
+          </div>
+        </div> 
+        <!-- END OF PERSONAL DISPLAY -->
+
+      </div> <!-- END OF CONTENT -->
+
+
+      <!-- FOOTER -->
+      <div id="footer" class="footer navbar-fixed-bottom">
+        <!-- GENERAL NAVIGATION -->
+        <div id="genNav" >
+          <ul class="navbar">
+            <li><a href="index.html" id="home_btn" class="btn"> <img src="img/home_icon.png" alt="Home"> </a></li>
+            <li class="active"><a href="#" id="message_btn" class="btn"> <img src="img/message_icon.png" alt="Messages"> </a></li>
+            <li><a href="workout.html" id="workout_btn" class="btn"> <img src="img/workout_icon.png" alt="Workouts"> </a></li>
+            <li><a href="analytics.html" id="analytics_btn" class="btn"> <img src="img/analytics_icon.png" alt="Analytics"> </a></li>
+            <li><a href="settings.html" id="settings_btn" class="btn"> <img src="img/settings_icon.png" alt="Settings"> </a></li>
+          </ul>
+        </div>
+      </div> <!-- END OF FOOTER -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/js/bootstrap.js"></script>
+
+  </body>
+</html>
