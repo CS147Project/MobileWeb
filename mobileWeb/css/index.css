@@ -1,0 +1,128 @@
+/* index.css
+ * styling for the home page
+ */
+
+.temp {
+	border: solid red 2px;
+}
+
+html, body {
+	height: 100%;
+}
+
+.container{
+	margin: 1% auto 1% auto;
+	padding: auto;
+	text-align: center;
+	/*min-width: 300px;
+	max-width: 960px;
+	width: 60%;*/
+	width: 300px;
+	height: 93%;
+	background: #6E858D;
+	border-radius: 5px;
+}
+
+.header {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	height: 10%;
+}
+
+.header h1{
+	font-family: alex-brush, cursive;
+}
+
+.content {
+	position: relative;
+	overflow-y: hidden;
+	bottom, top:0px;
+	background: white;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height:75%;
+}
+
+.display {
+	clear:both;
+	margin:0px;
+	padding:0px;
+	background-color: #000;
+    background-color: rgba(255,255,255,0.9);
+    width:100%;
+    height:inherit;
+    overflow-y: scroll;
+}
+
+.display ul li{
+	width: 100%;
+	margin: 0px;
+	text-decoration: none;
+}
+
+.btn-group {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+#personalBests {
+	margin: 0px;
+}
+
+.footer {
+	position: static;
+	height: 10%;
+	clear: both;
+	bottom: 0px;
+	background: #A9CEDA;
+}
+
+.navbar {
+	margin: 0px;
+	padding: 5px;
+	list-style-type: none;
+	vertical-align: middle;
+}
+
+.navbar li {
+	margin: 0px;
+	padding-bottom: 0px;
+	display: inline-block;
+	width: 18%;
+}
+
+.navbar li a:hover {
+	background: #4C8BA0;
+}
+
+.navbar li a {
+	margin: 0px;
+	padding: 0px;
+	background: #A9CEDA;
+	width: 100%;
+	padding: 5px;
+}
+
+#genNav ul li a img {
+	margin:auto;
+	height:25px;
+}
+
+#profileNav {
+	position: relative;
+	clear:both;
+	height:35px;
+	top:0px;
+}
+
+#profileNav ul li a.active{
+	background: #64BCDA;
+}
+
+#profileNav ul li a img{
+	margin: 0px 0px -15px 0px;
+	padding: 0px;
+	height: 30px;
+}

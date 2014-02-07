@@ -20,8 +20,7 @@
   </head>
 
   <body>
-
-    <div id="container" class="container">
+  <div id="container" class="container">
       <!-- HEADER -->
       <div id="header" class="header">
         <h1> TeamWorkout </h1>
@@ -33,15 +32,15 @@
         <div id="profileNav" class="">
           <ul class="navbar nav-tabs">
             <!-- Profile 1 -->
-            <li id="personal">
-              <a href="#" class="active profileLink btn">
+            <li>
+              <a href="#" id="personal" class="profileLink btn">
                 <img src="img/personal_profile_pic.png" alt="Personal profile">
                 <h6>You</h6>
               </a>
             </li>
             <!-- Profile 2 -->
-            <li id="team1">
-              <a href="#" class="profileLink btn">
+            <li>
+              <a href="#" id="team1" class="profileLink btn">
                 <img src="img/team1_profile_pic.png" alt="Team 1">
                 <h6>Team 1</h6>
               </a>
@@ -65,29 +64,19 @@
             </div>
             <table class="table">
               <tr class="btn">
-                <td id="date"> 01FEB14 </td>
-                <td id="activity"> Mile Run </td>
-                <td id="result"> 5m 35s </td>
+                <td> 01FEB14 </td>
+                <td> Mile Run </td>
+                <td> 5m 35s </td>
               </tr>
               <tr class="btn">
-                <td id="date"> 01FEB14 </td>
-                <td id="activity"> Mile Run </td>
-                <td id="result"> 5m 35s </td>
+                <td> 01FEB14 </td>
+                <td> 1/2 Mile Run </td>
+                <td> 5m 35s </td>
               </tr>
               <tr class="btn">
-                <td id="date"> 01FEB14 </td>
-                <td id="activity"> Mile Run </td>
-                <td id="result"> 5m 35s </td>
-              </tr>
-              <tr class="btn">
-                <td id="date"> 01FEB14 </td>
-                <td id="activity"> Mile Run </td>
-                <td id="result"> 5m 35s </td>
-              </tr>
-              <tr class="btn">
-                <td id="date"> 01FEB14 </td>
-                <td id="activity"> Mile Run </td>
-                <td id="result"> 5m 35s </td>
+                <td> 01FEB14 </td>
+                <td> Mile Run </td>
+                <td> 5m 35s </td>
               </tr>
             </table>
           </div>
@@ -101,11 +90,11 @@
         <!-- GENERAL NAVIGATION -->
         <div id="genNav" >
           <ul class="navbar">
-            <li class="active"><a href="#" id="home_btn" class="btn"> <img src="img/home_icon.png" alt="Home"> </a></li>
+            <li><a href="index.html" id="home_btn" class="btn"> <img src="img/home_icon.png" alt="Home"> </a></li>
             <li><a href="message.html" id="message_btn" class="btn"> <img src="img/message_icon.png" alt="Messages"> </a></li>
             <li><a href="workout.html" id="workout_btn" class="btn"> <img src="img/workout_icon.png" alt="Workouts"> </a></li>
             <li><a href="analytics.html" id="analytics_btn" class="btn"> <img src="img/analytics_icon.png" alt="Analytics"> </a></li>
-            <li><a href="settings.html" id="settings_btn" class="btn"> <img src="img/settings_icon.png" alt="Settings"> </a></li>
+            <li class="active"><a href="#" id="settings_btn" class="btn"> <img src="img/settings_icon.png" alt="Settings"> </a></li>
           </ul>
         </div>
       </div> <!-- END OF FOOTER -->
@@ -113,7 +102,6 @@
 
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="/js/bootstrap.js"></script>
-    <script src="//use.edgefonts.net/alex-brush:n4:all.js"></script> 
 
   </body>
 </html>
